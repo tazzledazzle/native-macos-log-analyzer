@@ -1,0 +1,1 @@
+# native-macos-log-analyzer
