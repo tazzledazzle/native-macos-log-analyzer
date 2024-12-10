@@ -1,0 +1,10 @@
+module(
+    name = "aggre_gator",
+    version = "1.0.0",
+)
+
+bazel_dep(name = "rules_cc", version = "0.1.0")
+bazel_dep(name = "apple_support", version = "1.17.1", repo_name = "build_bazel_apple_support")
+apple_cc_configure = use_extension("@build_bazel_apple_support//crosstool:setup.bzl", "apple_cc_configure_extension")
+use_repo(apple_cc_configure, "local_config_apple_cc")
+# cpp_library = use_extension("@common_cpp_utils//:extensions.bzl", "cpp_library")

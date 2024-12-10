@@ -113,3 +113,8 @@ ResultSummary aggregateResults(const std::vector<ResultSummary>& partialResults)
   * Empty logs.
   * Logs with unusual characters or formatting.
   * Extremely large logs.
+
+## 8. Resources
+* https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases 
+* https://developer.apple.com/documentation/xcode/build-system
+* https://developer.apple.com/documentation/apple-silicon/porting-your-macos-apps-to-apple-silicon

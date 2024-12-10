@@ -1,0 +1,9 @@
+#####
+# Log Fetcher
+# Log Reader
+# Log Processor
+# Aggregator
+# CLI
+load("@build_bazel_apple_support//lib:apple_support.bzl", "apple_support")
+
+apple_support

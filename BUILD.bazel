@@ -1,0 +1,5 @@
+# log_analyzer.cpp -o log_analyzer
+cc_binary(
+    name = "aggregator",
+    srcs = glob(["src/main/*.cpp"]),
+)
